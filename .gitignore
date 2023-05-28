@@ -1,0 +1,25 @@
+# .gitignore
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore files related to your text editor or IDE
+*.swp
+*.swo
+*.swn
+.vscode/
+
+# Ignore build artifacts, if any
+/dist
+/build
+
+# Ignore files related to LaTeX, if you're using it
+*.aux
+*.log
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Ignore PDF files, if you're generating them
+*.pdf
